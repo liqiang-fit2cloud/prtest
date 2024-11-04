@@ -1,15 +1,13 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-        System.out.println("Hello!");
-        System.out.println("Hello!");
-        System.out.println("Hello!");
-        System.out.println("Hello" + " World!");
-        System.out.println("Hello" + " World!");
-        System.out.println("Hello" + " World!");
-        System.out.println("Hello" + " World!");
-        System.out.println("Hello" + " World!");
-        System.out.println("Hello" + " World!");
-        System.out.println("Hello" + " World!");
+        // 原始字符串
+        String originalString = "Hello, World! World is beautiful.";
+        
+        // 替换 "World" 为 "Java"
+        String replacedString = originalString.replace("World", "Java");
+        
+        // 输出结果
+        System.out.println("原始字符串: " + originalString);
+        System.out.println("替换后的字符串: " + replacedString);
     }
 }
