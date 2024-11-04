@@ -7,7 +7,7 @@ public class HelloWorld {
         String replacedString = originalString.replace("World", "Java");
         
         // 输出结果
-        System.out.println("原始字符串: " + originalString);
-        System.out.println("替换后的字符串: " + replacedString);
+        System.out.println("原始字符串11: " + originalString);
+        System.out.println("替换后的字符串11: " + replacedString);
     }
 }
