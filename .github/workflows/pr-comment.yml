@@ -18,8 +18,8 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           # Optional
           LANGUAGE: Chinese
-          OPENAI_API_ENDPOINT: https://api.openai.com/v1
-          MODEL: gpt-3.5-turbo
+          OPENAI_API_ENDPOINT: https://dashscope.aliyuncs.com/compatible-mode/v1
+          MODEL: qwen2-1.5b-instruct
           PROMPT: Please check if there are any confusions or irregularities in the following code diff
           top_p: 1
           temperature: 1
