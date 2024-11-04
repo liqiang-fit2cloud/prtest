@@ -20,10 +20,10 @@ jobs:
           LANGUAGE: Chinese
           OPENAI_API_ENDPOINT: https://dashscope.aliyuncs.com/compatible-mode/v1
           MODEL: qwen2-1.5b-instruct
-          PROMPT: 请检查下面的代码差异是否有不规范、潜在的问题或者优化建议
+          PROMPT: "请检查下面的代码差异是否有不规范、潜在的问题或者优化建议"
           top_p: 1
           temperature: 1
           # max_tokens: 10000
           MAX_PATCH_LENGTH: 10000 
-          IGNORE_PATTERNS: /node_modules,*.md,/dist,/.github
-          FILE_PATTERNS: *.java,*.go,*.py,*.vue,*.ts.*.js,*.css,*.scss,*.html
+          IGNORE_PATTERNS: "/node_modules,*.md,/dist,/.github"
+          FILE_PATTERNS: "*.java,*.go,*.py,*.vue,*.ts.*.js,*.css,*.scss,*.html"
