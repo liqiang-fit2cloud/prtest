@@ -1,4 +1,4 @@
-name: Code Review
+name: LLM Code Review
 
 permissions:
   contents: read
@@ -9,7 +9,7 @@ on:
     types: [opened, reopened, synchronize]
 
 jobs:
-  test:
+  llm-code-review:
     runs-on: ubuntu-latest
     steps:
       - uses: zhangliqiang/ChatGPT-CodeReview@main
