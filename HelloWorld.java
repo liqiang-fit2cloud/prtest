@@ -3,7 +3,7 @@ public class HelloWorld {
         // 原始字符串
         String originalString = "Hello, World! World is beautiful.";
         
-        // 替换 "World" 为 "Java"
+        // 替换 "World" 为 "Java1"
         String replacedString = originalString.replace("World", "Java");
         
         // 输出结果
