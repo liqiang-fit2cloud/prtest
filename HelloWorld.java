@@ -1,12 +1,13 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        int number1 = 10;
-        int number2 = 20;
-        int sum = add(number1, number2);
-        System.out.println("The sum is: " + sum);
-    }
- 
-    public static int add(int a, int b) {
-        return a + b;
+        // 原始字符串
+        String originalString = "Hello, World! World is beautiful.";
+        
+        // 替换 "World" 为 "Java"
+        String replacedString = originalString.replace("World", "Java");
+        
+        // 输出结果
+        System.out.println("原始字符串: " + originalString);
+        System.out.println("替换后的字符串: " + replacedString);
     }
 }
