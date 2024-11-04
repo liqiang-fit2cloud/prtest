@@ -20,7 +20,7 @@ jobs:
           LANGUAGE: Chinese
           OPENAI_API_ENDPOINT: https://dashscope.aliyuncs.com/compatible-mode/v1
           MODEL: qwen2-1.5b-instruct
-          PROMPT: Please check if there are any confusions or irregularities in the following code diff
+          PROMPT: 请检查下面的代码差异是否有不规范、潜在的问题或者优化建议
           top_p: 1
           temperature: 1
           # max_tokens: 10000
